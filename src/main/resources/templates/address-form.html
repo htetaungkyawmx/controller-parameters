@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{layout :: layout (~{::main})}" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <main role="main">
+         <div class="album py-5 bg-light">
+            <div class="container">
+              <form action="#" th:action="@{/action01}" th:object="${address}" method="post">
+                 <div class="form-row">
+
+                 </div>
+
+              </form>
+            </div>
+         </div>
+    </main>
+</body>
+</html>
